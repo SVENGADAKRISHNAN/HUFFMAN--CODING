@@ -75,7 +75,7 @@ def generate_huffman_code(string):
     for char, _ in freq:
         print(f'{char!r:<4}| {huffmanCode[char]:<12}')
 
-string1 = "venket"
+string1 = "himavath"
 string2 = "accelerate"
 
 print("\nHuffman Codes for the first string:")
